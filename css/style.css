@@ -1,0 +1,58 @@
+.body {
+    font-family: 'Raleway', sans-serif;
+    margin: 50px 25px;
+    background-color: #f2f2f2;
+    color: #333333;
+    line-height: 1.5em;
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    margin-right: 25px;
+    padding: 5px 25px 5px 25px;
+    background-color: white;
+    border-radius: 25px;
+
+    -webkit-box-shadow: 10px 10px 20px -9px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 10px 10px 20px -9px rgba(0, 0, 0, 0.22);
+    box-shadow: 10px 10px 20px -9px rgba(0, 0, 0, 0.22);
+}
+
+.card-1 {
+    margin-left: 25px;
+}
+
+.button {
+    background-color: #4db8ff;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    transition: background-color 0.5s ease;
+}
+
+.button:hover {
+    background-color: #99d6ff;
+
+}
