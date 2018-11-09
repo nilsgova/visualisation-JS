@@ -36,6 +36,21 @@
     margin-left: 25px;
 }
 
+@media only screen and (max-width: 800px) {
+    .cards {
+        flex-direction: column;
+    }
+    
+    .card {
+        margin-top: 25px;
+    }
+    
+    .card-1 {
+        margin-left: 0px;
+        margin-top: -15px;
+    }
+}
+
 .button {
     background-color: #4db8ff;
     border: none;
