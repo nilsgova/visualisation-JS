@@ -11,7 +11,7 @@
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -55,4 +55,14 @@
 .button:hover {
     background-color: #99d6ff;
 
+}
+
+#changeMe {
+    margin-top: 50px;
+}
+
+.text-center {
+    text-align: center;
+    color: #0099ff;
+    font-family: 'Raleway', sans-serif;
 }
