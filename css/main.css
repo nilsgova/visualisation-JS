@@ -81,9 +81,10 @@ p {
     }
 }
 
-.button:hover {
+@media only screen and (min-width: 800px) {
+    .button:hover {
     background-color: #99d6ff;
-
+}
 }
 
 #changeMe {
