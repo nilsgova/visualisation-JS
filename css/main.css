@@ -5,6 +5,11 @@
     color: #333333;
     line-height: 1.5em;
 }
+h1,
+h2,
+h3 {
+    line-height: 1.5em;
+}
 
 .title {
     text-align: center;
