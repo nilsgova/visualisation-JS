@@ -23,8 +23,8 @@ p {
 
 .cards {
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
+    
 }
 
 .card {
@@ -54,6 +54,9 @@ p {
     .card-1 {
         margin-left: 0px;
         margin-top: -15px;
+    }
+    .container {
+        position: absolute;
     }
 }
 
