@@ -70,7 +70,6 @@ p {
     width: 30%;
     margin-left: 35%;
     margin-right: 35%;
-    transition: background-color 0.5s ease;
 }
 
 @media only screen and (max-width: 800px) {
@@ -81,10 +80,14 @@ p {
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media all and (min-width: 800px) {
+    .button {
+        transition: background-color 0.5s ease;
+    }
+    
     .button:hover {
     background-color: #99d6ff;
-}
+    }
 }
 
 #changeMe {
